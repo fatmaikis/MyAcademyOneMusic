@@ -1,0 +1,159 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OneMusic.BusinessLayer\OneMusic.BusinessLayer.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\03465f23f19c9b31771cc8acec61089cccc1845c\style.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\03465f23f19c9b31771cc8acec61089cccc1845c\_fonts.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\03465f23f19c9b31771cc8acec61089cccc1845c\_mixin.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\03465f23f19c9b31771cc8acec61089cccc1845c\_responsive.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\03465f23f19c9b31771cc8acec61089cccc1845c\_theme_color.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\9568d30ed5d2cebc2ad5df4154c8df8099b75c0b\style.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\9568d30ed5d2cebc2ad5df4154c8df8099b75c0b\_mixin.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\9568d30ed5d2cebc2ad5df4154c8df8099b75c0b\_responsive.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\9568d30ed5d2cebc2ad5df4154c8df8099b75c0b\_theme_color.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\9568d30ed5d2cebc2ad5df4154c8df8099b75c0b\_variables.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\b687762b7660b1f71ae40e600add14c590cfdbc7\style.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\b687762b7660b1f71ae40e600add14c590cfdbc7\_mixin.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\b687762b7660b1f71ae40e600add14c590cfdbc7\_responsive.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\b687762b7660b1f71ae40e600add14c590cfdbc7\_theme_color.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\b687762b7660b1f71ae40e600add14c590cfdbc7\_variables.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\d85c8cf619ac1df897d554b9bf37f413df87287f\style.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\d85c8cf619ac1df897d554b9bf37f413df87287f\_fonts.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\d85c8cf619ac1df897d554b9bf37f413df87287f\_mixin.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\d85c8cf619ac1df897d554b9bf37f413df87287f\_responsive.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\.sass-cache\d85c8cf619ac1df897d554b9bf37f413df87287f\_theme_color.scssc" />
+    <None Include="wwwroot\one-music-gh-pages\albums-store.html" />
+    <None Include="wwwroot\one-music-gh-pages\audio\dummy-audio.mp3" />
+    <None Include="wwwroot\one-music-gh-pages\blog.html" />
+    <None Include="wwwroot\one-music-gh-pages\contact.html" />
+    <None Include="wwwroot\one-music-gh-pages\css\animate.css" />
+    <None Include="wwwroot\one-music-gh-pages\css\audioplayer.css" />
+    <None Include="wwwroot\one-music-gh-pages\css\bootstrap.min.css" />
+    <None Include="wwwroot\one-music-gh-pages\css\classy-nav.css" />
+    <None Include="wwwroot\one-music-gh-pages\css\font-awesome.min.css" />
+    <None Include="wwwroot\one-music-gh-pages\css\magnific-popup.css" />
+    <None Include="wwwroot\one-music-gh-pages\css\one-music-icon.css" />
+    <None Include="wwwroot\one-music-gh-pages\css\owl.carousel.min.css" />
+    <None Include="wwwroot\one-music-gh-pages\elements.html" />
+    <None Include="wwwroot\one-music-gh-pages\event.html" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\classy.eot" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\classy.svg" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\classy.ttf" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\classy.woff" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\icomoon.eot" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\icomoon.svg" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\icomoon.ttf" />
+    <None Include="wwwroot\one-music-gh-pages\fonts\icomoon.woff" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a1.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a10.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a11.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a12.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a2.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a3.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a4.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a5.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a6.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a7.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a8.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\a9.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\add.gif" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\add2.gif" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\add3.gif" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\b1.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\b2.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\b3.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\b4.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\bg-1.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\bg-2.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\bg-3.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\bg-4.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\blog1.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\blog2.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\blog3.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\breadcumb.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\breadcumb2.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\breadcumb3.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\e1.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\e2.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\e3.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\e4.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\e5.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\e6.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\e7.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\e8.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\e9.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\fa.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\pa1.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\pa2.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\pa3.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\pa4.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\pa5.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\pa6.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\pa7.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\s1.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\s2.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\s3.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\s4.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\t1.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt1.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt10.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt11.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt12.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt2.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt3.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt4.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt5.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt6.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt7.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt8.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\bg-img\wt9.jpg" />
+    <None Include="wwwroot\one-music-gh-pages\img\core-img\favicon.ico" />
+    <None Include="wwwroot\one-music-gh-pages\img\core-img\logo.png" />
+    <None Include="wwwroot\one-music-gh-pages\index.html" />
+    <None Include="wwwroot\one-music-gh-pages\js\active.js" />
+    <None Include="wwwroot\one-music-gh-pages\js\bootstrap\bootstrap.min.js" />
+    <None Include="wwwroot\one-music-gh-pages\js\bootstrap\popper.min.js" />
+    <None Include="wwwroot\one-music-gh-pages\js\jquery\jquery-2.2.4.min.js" />
+    <None Include="wwwroot\one-music-gh-pages\js\plugins\plugins.js" />
+    <None Include="wwwroot\one-music-gh-pages\login.html" />
+    <None Include="wwwroot\one-music-gh-pages\scss\style.scss" />
+    <None Include="wwwroot\one-music-gh-pages\scss\_fonts.scss" />
+    <None Include="wwwroot\one-music-gh-pages\scss\_mixin.scss" />
+    <None Include="wwwroot\one-music-gh-pages\scss\_responsive.scss" />
+    <None Include="wwwroot\one-music-gh-pages\scss\_theme_color.scss" />
+    <None Include="wwwroot\one-music-gh-pages\style.css" />
+    <None Include="wwwroot\one-music-gh-pages\style.css.map" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.9.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.4">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Artist\Data\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="wwwroot\songs\" />
+  </ItemGroup>
+
+</Project>

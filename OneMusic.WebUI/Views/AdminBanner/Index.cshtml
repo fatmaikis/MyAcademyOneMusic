@@ -1,0 +1,37 @@
+﻿@model List<Banner>
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+    int count = 0;
+}
+
+<h3>Öne Çıkan Sayfası</h3>
+
+<table class="table table-bordered table-hover">
+<tr>
+    <td>#</td>
+    <td>Başlık</td>
+    <td>Alt Başlık</td>
+    <td>Resim</td>
+    <td>İşlemler</td>
+</tr>
+
+@foreach (var item in Model)
+    {
+        count++;
+        <tr>
+            <th>@count</th>
+            <td>@item.Title</td>
+            <td>@item.SubTitle</td>
+            <td>@item.ImageUrl</td>
+            <td>
+                <a class="btn btn-outline-danger" asp-action="DeleteBanner" asp-route-id="@item.BannerID">Sil</a>
+                <a class="btn btn-outline-info" asp-action="UpdateBanner" asp-route-id="@item.BannerID">Güncelle</a>
+            </td>
+        </tr>
+    }
+
+</table>
+
+<br />
+<a class="btn btn-outline-info" asp-action="CreateBanner" >Yeni Öne Çıkan Ekle</a>

@@ -1,0 +1,18 @@
+﻿
+Şarkı dosyadan eklenecek artist tarafında
+
+ albüme göre ve sanatcıya göre şarkıların getirileceği bir alan
+ albüm/ındex içinde dropdown ile filtreleme yaparak albumler getirme
+ dropdowna selectlistıtem yöntemi tag helper ile anlatılacak
+
+ Ana sayfada Albume tıkladığında o albume ait şarkıların listeleneceği alan ve şarkılar , Album görseli eklenecek
+•	En son eklenen parça , o hangi albumse kapak fotografı(temada buy what's new alanı)
+•	Popüler sanatçılar alanında (Son eklenen 7 sanatçı listenecek)
+•	Son Eklenen 6 adet şarkı çalınabilir durumda olunacak(Hangi albüme aitse album kapağı görünecek)
+•	Son eklenen 6 album(this weeks top alanı) =>şarkıcıya tıklandığında o şarkıcıya ait albümler gelmeli, albüme tıklandığında şarkılar gelmeli.
+•	Etkinlikler sayfası opsiyonel=> Yapılırsa dinamik olmalı
+•	İletişim kısmı dinamik olacak
+•	Mesaj gönder kısmı layota taşınabilir.
+•	Login ve register alanı düzenlenecek.
+•	Admin tüm paneli yönetecek
+•	Sanatçı panelin tarafında kendi yapabildiklerini düzenleyecek

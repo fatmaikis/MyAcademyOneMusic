@@ -1,0 +1,40 @@
+﻿@model List<Song>
+
+<section class="featured-artist-area section-padding-100 bg-img bg-overlay bg-fixed" style="background-image: url(/one-music-gh-pages/img/bg-img/bg-4.jpg);">
+    <div class="container">
+        <div class="row align-items-end">
+
+            @foreach (var item in Model)
+            {
+
+            <div class="col-12 col-md-5 col-lg-4">
+ 
+              
+                <div class="featured-artist-thumb">
+                        <img src="@item.SongImageUrl" alt="">
+                </div>
+            </div>
+            <div class="col-12 col-md-7 col-lg-8">
+                <div class="featured-artist-content">
+                    <!-- Section Heading -->
+
+                    <div class="section-heading white text-left mb-30">
+                        <p>Sezen Aksu severlere...</p>
+                        <h2>En Çok Sevilen Albüm</h2>
+                    </div>
+                        <p>"Sen Ağlama," Sezen Aksu'nun 1984 yılında çıkardığı ve Türk müzik tarihinde önemli bir yere sahip olan albümlerinden biridir. Bu albüm, Sezen Aksu'nun müzik kariyerindeki başarısını pekiştiren ve onun "Minik Serçe" lakabını kazandıran çalışmalardan biri olarak kabul edilir. </p>
+                    <div class="song-play-area">
+                        <div class="song-name">
+                            @* <p>01. Main Hit Song</p> *@
+                        </div>
+                        <audio preload="auto" controls>
+                                <source src="/songs/@item.SongUrl">
+                        </audio>
+                    </div>
+                </div>
+            </div>
+              }
+              }
+        </div>
+    </div>
+</section>

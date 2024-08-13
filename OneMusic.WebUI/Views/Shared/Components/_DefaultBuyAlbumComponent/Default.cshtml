@@ -1,0 +1,55 @@
+﻿@model List<Album>
+<section class="oneMusic-buy-now-area has-fluid bg-gray section-padding-100">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-12">
+                <div class="section-heading style-2">
+                    <p>See what’s new</p>
+                    <h2>Buy What’s New</h2>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            @foreach (var item in Model)
+            {
+                <!-- Single Album Area -->
+                <div class="col-12 col-sm-6 col-md-4 col-lg-2">
+                    <div class="single-album-area wow fadeInUp" data-wow-delay="100ms">
+                        <div class="album-thumb">
+                            <img src="@item.CoverImage" style="width:250px; height:200px;" alt="">
+                            <!-- Album Price -->
+                            <div class="album-price">
+                                <p>@item.Price ₺</p>
+                            </div>
+                            <!-- Play Icon -->
+                          @*   <div class="play-icon">
+                                    <audio preload="auto" controls>
+                                        <source src="/songs/@item.Songs.FirstOrDefault()?.SongUrl">
+                                    </audio>
+
+                            </div> *@
+                        </div>
+                        <div class="album-info">
+                            <a href="#">
+                                <h5>@item.AlbumName</h5>
+                            </a>
+                            <p>@item.AppUser.Name @item.AppUser.Surname</p>
+                        </div>
+                    </div>
+                </div>
+
+            }
+          
+          
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="load-more-btn text-center wow fadeInUp" data-wow-delay="300ms">
+                    <a href="#" class="btn oneMusic-btn">Daha fazla <i class="fa fa-angle-double-right"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
