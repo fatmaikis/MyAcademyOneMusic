@@ -1,58 +1,17 @@
 ﻿﻿
 @model List<Album>
 
-@* <style>
-    .pagination-container {
-        display: flex;
-        justify-content: center;
-        margin-top: 20px;
-    }
-
-    .page-item {
-        margin: 0 5px;
-    }
-
-    .page-link {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        width: 40px;
-        height: 40px;
-        border-radius: 50%;
-        background-color: #f8f9fa;
-        border: 1px solid #dee2e6;
-        color: #007bff;
-        text-decoration: none;
-    }
-
-        .page-link:hover {
-            background-color: #e9ecef;
-        }
-
-    .page-item.active .page-link {
-        background-color: #007bff;
-        color: #fff;
-        border-color: #007bff;
-    }
-
-    .page-item.disabled .page-link {
-        color: #6c757d;
-        pointer-events: none;
-        background-color: #fff;
-        border-color: #dee2e6;
-    }
-
-</style> *@
 
 
 <div class="oneMusic-buy-now-area mb-100">
     <div class="container">
-       @*  <h2>En Son Albümler</h2>
-        <h4>Aşağıda Son yüklenen albümleri ve albümlere ait ilk parçaları dinleyebilirsiniz...</h4> *@
+        <h2>En Son Eklenen Albümler</h2>
+        <h4>En son eklenen albümleri keşfedin ve albümlerdeki hit parçaları anında dinleyerek müzik dolu bir yolculuğa çıkın.</h4>
         <br /> <br />
         <div class="row">
             @foreach (var item in Model)
             {
+            
                 <!-- Single Album Area -->
                 <div class="col-12 col-sm-6 col-md-3">
                     <div class="single-album-area">
@@ -63,14 +22,20 @@
                                 <p>@item.Price.ToString("n2") ₺</p>
                             </div>
                             <!-- Play Icon -->
-                            <div>
-
+                            @if (item.Songs != null && item.Songs.FirstOrDefault() != null && !string.IsNullOrEmpty(item.Songs.FirstOrDefault().SongUrl))
+                            {
                                 <audio preload="auto" controls>
-                                    <source src="/songs/@item.Songs">
+                                    <source src="@item.Songs.FirstOrDefault()?.SongUrl">
                                 </audio>
+                            }
+                            else
+                            {
+                                <audio preload="auto" controls>
+                                    <source src="/songs/default.mp3">
+                                </audio>
+                            }
 
 
-                            </div>
                         </div>
                         <div class="album-info">
                             <a href="#">

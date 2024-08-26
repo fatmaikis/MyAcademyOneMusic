@@ -153,7 +153,6 @@
   <ItemGroup>
     <Folder Include="Areas\Artist\Data\" />
     <Folder Include="wwwroot\images\" />
-    <Folder Include="wwwroot\songs\" />
   </ItemGroup>
 
 </Project>
