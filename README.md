@@ -1,6 +1,6 @@
 # MyAcademy OneMusic Projesi  
 Merhabalar herkese, M&Y Yazılım Eğitim Akademi Danışmanlık bünyesinde Erhan Gündüz hocamızın eğitmenliği Murat Yücedağ hocamızın mentorluğunda 
-üçüncü projem olan OneMusic isimli projesmi tamamladım.
+üçüncü projem olan OneMusic isimli projemi tamamladım.
 
 # Proje kapsamı ve yetkilendirmeler ;
 
